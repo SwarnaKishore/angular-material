@@ -5,7 +5,7 @@ import { HttpModule } from '@angular/http';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {NoopAnimationsModule} from '@angular/platform-browser/animations';
 import 'hammerjs';
-import {MdToolbarModule, MdSidenavModule, MdGridListModule, MdButtonModule} from '@angular/material';
+import {MdToolbarModule, MdSidenavModule, MdGridListModule, MdButtonModule, MdMenuModule} from '@angular/material';
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -21,7 +21,8 @@ import { AppComponent } from './app.component';
     MdToolbarModule,
     MdSidenavModule,
     MdGridListModule,
-    MdButtonModule
+    MdButtonModule,
+    MdMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
