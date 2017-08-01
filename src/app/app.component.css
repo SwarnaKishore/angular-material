@@ -64,10 +64,9 @@
   padding: 0 14px 0 14px;
   color: white;
   position: relative;
-  top: 15px;
+  top: 5px;
 }
-md-toolbar {
-    min-height: 85px; 
+md-toolbar { 
     box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
 }
 ul, li{
@@ -77,11 +76,19 @@ ul, li{
 
 .title-styles{
     position: relative;
-    right: 20%;
-    font-size: 60px;
+    right: 30%;
+    font-size: 50px;
 }
 
 .fab-button{
     position: relative;
-    left: 20%;
+}
+
+.post-card {
+  width: 280px;
+}
+
+.card-header-image {
+  /*background-image: url('');*/
+  background-size: cover;
 }

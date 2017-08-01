@@ -7,14 +7,14 @@
         <md-toolbar color="primary">
  
                   <button class="app-icon-button" (click)="sidenav.toggle(); toggleMenuIcon()">
-                    <i *ngIf="toggleIcon" class="material-icons app-toolbar-menu" style="font-size: 60px;">menu</i>
-                    <i *ngIf="!toggleIcon" class="material-icons app-toolbar-menu" style="font-size: 60px;">close</i>           
+                    <i *ngIf="toggleIcon" class="material-icons app-toolbar-menu">menu</i>
+                    <i *ngIf="!toggleIcon" class="material-icons app-toolbar-menu">close</i>           
                 </button>
-                 <span style="position: relative; top: 15px; font-size: 30px;">Project Name</span>
-                         <button style="position: absolute; right: 10px; top: 15px;" md-button [mdMenuTriggerFor]="menu">
-                          <i class="material-icons" style="font-size: 50px;">more_vert</i>
+                 <span>Project Name</span>
+                         <button md-button [mdMenuTriggerFor]="menu" style="position:absolute; right: 10px;">
+                          <i class="material-icons">more_vert</i>
                         </button>
-                        <button style="position: absolute; right: 60px; top: 15px;" md-button><i class="material-icons" style="font-size: 45px;">search</i></button>
+                        <button style="position: absolute; right: 60px; top: 15px;" md-button><i class="material-icons">search</i></button>
                         <md-menu #menu="mdMenu">
                           <button md-menu-item>
                             <i class="material-icons">email</i>
@@ -41,5 +41,23 @@
 
         </md-grid-list>
 
-            
+    <md-card class="post-card">
+
+      <img md-card-image src="assets/img/examples/shiba2.jpg">
+       <md-card-header>
+        <div md-card-avatar class="card-header-image">
+          
+        </div>
+        <md-card-title>Angular Material</md-card-title>
+        <md-card-subtitle>Material Design components for Angular</md-card-subtitle>
+      </md-card-header>
+     
+
+      <md-card-actions>
+        <button md-button>LIKE</button>
+        <button md-button>SHARE</button>
+      </md-card-actions>
+
+    </md-card>
+
 </md-sidenav-container>
