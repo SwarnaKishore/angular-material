@@ -31,7 +31,7 @@
                         </md-menu>
       </md-toolbar>
         <md-grid-list cols="1" rowHeight="500">
-          <md-grid-tile style="margin-left: 5.5%">
+          <md-grid-tile style="margin-left: 5.5%">            
             <ul>
               <li><h1 class="title-styles">Project Name</h1></li>
               <li class="fab-button"><a md-fab><i class="material-icons">&#xE313;</i></a></li>              
@@ -41,23 +41,30 @@
 
         </md-grid-list>
 
-    <md-card class="post-card">
-
-      <img md-card-image src="assets/img/examples/shiba2.jpg">
-       <md-card-header>
-        <div md-card-avatar class="card-header-image">
-          
+     <h1 style="text-align: center">Articles</h1>
+      <div style="text-align: center">
+        <div style="display:inline-block; margin-right: 5%;">
+            <md-card class="post-card">
+              <img md-card-image src="../assets/images/ray.jpg">
+              <h2>Angular Material</h2>
+              <md-card-actions>
+                <button md-button><i class="material-icons">favorite</i></button>
+                <button md-button><i class="material-icons">share</i></button>
+              </md-card-actions>
+            </md-card>
         </div>
-        <md-card-title>Angular Material</md-card-title>
-        <md-card-subtitle>Material Design components for Angular</md-card-subtitle>
-      </md-card-header>
-     
 
-      <md-card-actions>
-        <button md-button>LIKE</button>
-        <button md-button>SHARE</button>
-      </md-card-actions>
+      <div style="display:inline-block">      
+          <md-card class="post-card">
+            <img md-card-image src="../assets/images/sf-baker.jpg">
+            <h2>Angular Material</h2>
+            <md-card-actions>
+              <button md-button><i class="material-icons">favorite</i></button>
+              <button md-button><i class="material-icons">share</i></button>
+            </md-card-actions>
+          </md-card>
+      </div>
+      </div>
 
-    </md-card>
 
 </md-sidenav-container>
